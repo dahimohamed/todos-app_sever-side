@@ -86,21 +86,3 @@ export const updateAll = async (req, res) => {
 
   res.send('updated');
 };
-// export const updateAll = (req, res) => { 
-//   const { todos: items } = req.body;
-
-//   const success = [];
-//   const fail = [];
-
-//   for (const { id, title, completed } of items) {
-//     const requestedTodo = todoService.getById(id);
-//     if (!requestedTodo) {
-//       fail.push(id);
-//       continue;
-//     }
-
-//     todoService.update({ id, title, completed });
-//     success.push(id);
-//   }
-//   res.send({success, fail});
-// };
