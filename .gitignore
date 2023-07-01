@@ -1,0 +1,5 @@
+node_modules
+contrived_irrelevant_files
+.vscode
+.idea
+.env
